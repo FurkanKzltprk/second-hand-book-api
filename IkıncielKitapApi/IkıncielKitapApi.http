@@ -1,0 +1,6 @@
+@IkıncielKitapApi_HostAddress = http://localhost:5231
+
+GET {{IkıncielKitapApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
