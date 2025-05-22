@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "IkincielKitapApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "IkincielKitapApi.Controllers.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Ik\u0131ncielKitapApi.Controllers.BooksController",
     "Method": "GetBooks",
     "RelativePath": "api/Books",
@@ -122,6 +138,26 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ik\u0131ncielKitapApi.Controllers.BooksController",
+    "Method": "GetAvailableBooks",
+    "RelativePath": "api/Books/available",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ik\u0131ncielKitapApi.Controllers.BooksController",
+    "Method": "GetMyBooks",
+    "RelativePath": "api/Books/mybooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -290,6 +326,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Ik\u0131ncielKitapApi.Controllers.OrdersController",
+    "Method": "GetMyOrders",
+    "RelativePath": "api/Orders/myorders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Ik\u0131ncielKitapApi.Controllers.UsersController",
     "Method": "GetUsers",
     "RelativePath": "api/Users",
@@ -393,6 +439,32 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ik\u0131ncielKitapApi.Controllers.UsersController",
+    "Method": "GetMyInfo",
+    "RelativePath": "api/Users/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ik\u0131ncielKitapApi.Controllers.UsersController",
+    "Method": "UpdateMyProfile",
+    "RelativePath": "api/Users/me",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ik\u0131ncielKitapApi.Controllers.UsersController\u002BUpdateProfileRequest",
         "IsRequired": true
       }
     ],

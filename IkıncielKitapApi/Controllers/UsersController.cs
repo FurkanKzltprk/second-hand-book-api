@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using IkincielKitapApi.Data;
 using IkıncielKitapApi.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace IkıncielKitapApi.Controllers
 {
@@ -99,6 +101,96 @@ namespace IkıncielKitapApi.Controllers
 
             return NoContent();
         }
+        [Authorize]
+        [HttpGet("me")]
+        public IActionResult GetMyInfo()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (userId == null)
+                return Unauthorized();
+
+            var user = _context.Users.FirstOrDefault(u => u.Id.ToString() == userId);
+
+            if (user == null)
+                return NotFound("Kullanıcı bulunamadı.");
+
+            return Ok(new
+            {
+                user.Id,
+                user.Username,
+                user.Email,
+                user.Role
+            });
+        }
+        [Authorize]
+        [HttpPut("me")]
+        public IActionResult UpdateMyProfile([FromBody] UpdateProfileRequest request)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+                return Unauthorized();
+
+            var user = _context.Users.FirstOrDefault(u => u.Id.ToString() == userId);
+            if (user == null)
+                return NotFound("Kullanıcı bulunamadı.");
+
+            var updateMessages = new List<string>();
+
+            // Kullanıcı adı güncelleme kontrolü
+            if (!string.IsNullOrWhiteSpace(request.Username) && request.Username != user.Username)
+            {
+                user.Username = request.Username;
+                updateMessages.Add("Kullanıcı adı güncellendi.");
+            }
+            else if (request.Username == user.Username)
+            {
+                updateMessages.Add("Kullanıcı adı zaten aynı, güncellenmedi.");
+            }
+
+            // Email güncelleme kontrolü
+            if (!string.IsNullOrWhiteSpace(request.Email) && request.Email != user.Email)
+            {
+                bool emailExists = _context.Users.Any(u => u.Email == request.Email && u.Id != user.Id);
+                if (emailExists)
+                {
+                    updateMessages.Add("Bu e-posta başka bir kullanıcı tarafından kullanılıyor, güncellenmedi.");
+                }
+                else
+                {
+                    user.Email = request.Email;
+                    updateMessages.Add("E-posta adresi güncellendi.");
+                }
+            }
+            else if (request.Email == user.Email)
+            {
+                updateMessages.Add("E-posta zaten aynı, güncellenmedi.");
+            }
+
+            // Şifre güncelleme kontrolü
+            if (!string.IsNullOrWhiteSpace(request.Password))
+            {
+                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
+                updateMessages.Add("Şifre güncellendi.");
+            }
+
+            _context.SaveChanges();
+
+            return Ok(new
+            {
+                message = "Profil güncelleme tamamlandı.",
+                details = updateMessages
+            });
+        }
+
+
+        public class UpdateProfileRequest
+        {
+            public string? Username { get; set; }
+            public string? Email { get; set; }
+            public string? Password { get; set; }
+        }
+
 
         private bool UserExists(int id)
         {

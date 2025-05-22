@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using IkincielKitapApi.Data;
 using IkıncielKitapApi.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 
 namespace IkıncielKitapApi.Controllers
@@ -76,16 +77,28 @@ namespace IkıncielKitapApi.Controllers
         }
 
         // POST: api/Books
+
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
         [Authorize]
+        [HttpPost]
         public async Task<ActionResult<Book>> PostBook(Book book)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (userId == null)
+                return Unauthorized();
+
+            // Token'dan gelen kullanıcıyı kitaba ata
+            book.UserId = int.Parse(userId);
+            book.PostedDate = DateTime.Now;
+            book.IsSold = false;
+
             _context.Books.Add(book);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetBook", new { id = book.Id }, book);
         }
+
 
         // DELETE: api/Books/5
         [Authorize(Roles = "Admin")]
@@ -153,5 +166,30 @@ namespace IkıncielKitapApi.Controllers
                 books
             });
         }
+        [Authorize]
+        [HttpGet("mybooks")]
+        public IActionResult GetMyBooks()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (userId == null)
+                return Unauthorized();
+
+            var books = _context.Books
+                .Where(b => b.UserId.ToString() == userId)
+                .ToList();
+
+            return Ok(books);
+        }
+        [HttpGet("available")]
+        public IActionResult GetAvailableBooks()
+        {
+            var availableBooks = _context.Books
+                .Where(b => !b.IsSold)
+                .ToList();
+
+            return Ok(availableBooks);
+        }
+
     }
 }

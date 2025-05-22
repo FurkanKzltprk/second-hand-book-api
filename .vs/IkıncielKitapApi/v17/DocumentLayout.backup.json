@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,24 +51,12 @@
       "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\migrations\\20250522140302_adduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\migrations\\20250522140302_adduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -103,58 +107,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20250522140302_AddUserRole.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs",
-              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs",
-              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:03:02.932Z",
+              "WhenOpened": "2025-05-22T15:40:44.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Ik\u0131ncielKitapApi.http",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.http",
-              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.http",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.http",
-              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-05-22T11:58:30.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:57:42.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAkwFsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:25:47.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Properties\\launchSettings.json",
@@ -162,12 +127,11 @@
               "RelativeToolTip": "Ik\u0131ncielKitapApi\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-22T11:30:32.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T11:30:32.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Program.cs",
               "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Program.cs",
@@ -175,24 +139,24 @@
               "RelativeToolTip": "Ik\u0131ncielKitapApi\\Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAUwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T10:56:59.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T10:56:59.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAUwI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:27:42.477Z"
+              "WhenOpened": "2025-05-22T11:27:42.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\User.cs",
@@ -200,12 +164,100 @@
               "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T10:50:05.001Z",
+              "WhenOpened": "2025-05-22T10:50:05.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:49:56.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:54:57.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAswMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:25:47.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:57:42.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAYwLgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:27:16.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ik\u0131ncielKitapApi.http",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.http",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.http",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.http",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-22T11:58:30.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250522140302_AddUserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Migrations\\20250522140302_AddUserRole.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:03:02.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\appsettings.json",
               "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\appsettings.json",
@@ -213,32 +265,7 @@
               "RelativeToolTip": "Ik\u0131ncielKitapApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-22T12:14:13.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:27:16.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T10:54:57.064Z"
+              "WhenOpened": "2025-05-22T12:14:13.843Z"
             },
             {
               "$type": "Document",
@@ -251,18 +278,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T10:50:15.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Models\\Book.cs",
-              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\Book.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAIA+wA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T10:49:56.465Z"
             }
           ]
         },

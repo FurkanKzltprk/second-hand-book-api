@@ -4,6 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using IkincielKitapApi.Data;
+using IkıncielKitapApi.Models;
 
 namespace IkincielKitapApi.Controllers
 {
@@ -23,17 +24,17 @@ namespace IkincielKitapApi.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            var user = _context.Users.FirstOrDefault(u =>
-                u.Email == request.Email && u.PasswordHash == request.Password);
+            var user = _context.Users.FirstOrDefault(u => u.Email == request.Email);
 
-            if (user == null)
+            // Şifre hash kontrolü
+            if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
                 return Unauthorized("Geçersiz kullanıcı adı veya şifre.");
 
             var claims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Name, user.Username),
-                new Claim(ClaimTypes.Role, user.Role) // Kullanıcının rolünü token'a ekliyoruz
+                new Claim(ClaimTypes.Role, user.Role)
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
@@ -50,11 +51,41 @@ namespace IkincielKitapApi.Controllers
 
             return Ok(new { token = tokenString });
         }
+
+        [HttpPost("register")]
+        public IActionResult Register([FromBody] RegisterRequest request)
+        {
+            if (_context.Users.Any(u => u.Email == request.Email))
+                return BadRequest("Bu email adresi zaten kullanılıyor.");
+
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password);
+
+            var user = new User
+            {
+                Username = request.Username,
+                Email = request.Email,
+                PasswordHash = hashedPassword,
+                Role = request.Role ?? "User"
+            };
+
+            _context.Users.Add(user);
+            _context.SaveChanges();
+
+            return Ok("Kayıt başarılı.");
+        }
     }
 
     public class LoginRequest
     {
         public string Email { get; set; } = "";
         public string Password { get; set; } = "";
+    }
+
+    public class RegisterRequest
+    {
+        public string Username { get; set; } = "";
+        public string Email { get; set; } = "";
+        public string Password { get; set; } = "";
+        public string? Role { get; set; }
     }
 }

@@ -58,7 +58,7 @@ namespace IkıncielKitapApi.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("IkıncielKitapApi.Models.Order", b =>
@@ -84,7 +84,7 @@ namespace IkıncielKitapApi.Migrations
 
                     b.HasIndex("BuyerId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("IkıncielKitapApi.Models.User", b =>
@@ -113,7 +113,7 @@ namespace IkıncielKitapApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("IkıncielKitapApi.Models.Book", b =>

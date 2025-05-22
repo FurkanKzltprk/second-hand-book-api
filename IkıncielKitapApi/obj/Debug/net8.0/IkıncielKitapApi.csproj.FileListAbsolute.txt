@@ -8,6 +8,7 @@ C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\bin\Debug\net8.
 C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\bin\Debug\net8.0\IkıncielKitapApi.pdb
 C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

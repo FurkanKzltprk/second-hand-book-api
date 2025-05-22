@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using IkincielKitapApi.Data;
 using IkıncielKitapApi.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace IkıncielKitapApi.Controllers
 {
@@ -75,13 +77,29 @@ namespace IkıncielKitapApi.Controllers
 
         // POST: api/Orders
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
+            // Sipariş verilen kitap
+            var book = await _context.Books.FindAsync(order.BookId);
+
+            if (book == null)
+                return BadRequest("Kitap bulunamadı.");
+
+            if (book.IsSold)
+                return BadRequest("Bu kitap zaten satılmış.");
+
+            // Kitabı satılmış olarak işaretle
+            book.IsSold = true;
+
+            // Siparişi ekle
+            order.OrderDate = DateTime.Now;
             _context.Orders.Add(order);
+
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetOrder", new { id = order.Id }, order);
+            return Ok("Sipariş başarıyla oluşturuldu ve kitap satıldı olarak işaretlendi.");
         }
 
         // DELETE: api/Orders/5
@@ -99,6 +117,30 @@ namespace IkıncielKitapApi.Controllers
 
             return NoContent();
         }
+        [Authorize]
+        [HttpGet("myorders")]
+        public IActionResult GetMyOrders()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (userId == null)
+                return Unauthorized();
+
+            var orders = _context.Orders
+                .Where(o => o.BuyerId.ToString() == userId)
+                .Select(o => new
+                {
+                    o.Id,
+                    o.OrderDate,
+                    o.Book.Title,
+                    o.Book.Author,
+                    o.Book.Price
+                })
+                .ToList();
+
+            return Ok(orders);
+        }
+
 
         private bool OrderExists(int id)
         {
