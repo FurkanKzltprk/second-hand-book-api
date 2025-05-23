@@ -48,33 +48,28 @@ namespace IkıncielKitapApi.Controllers
         // PUT: api/Books/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutBook(int id, Book book)
+        public async Task<IActionResult> PutBook(int id, [FromBody] Book updatedBook)
         {
-            if (id != book.Id)
+            var existingBook = await _context.Books.FindAsync(id);
+            if (existingBook == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            _context.Entry(book).State = EntityState.Modified;
+            // ID kontrolü yok, güncellenecek alanları ata
+            existingBook.Title = updatedBook.Title;
+            existingBook.Author = updatedBook.Author;
+            existingBook.Description = updatedBook.Description;
+            existingBook.Price = updatedBook.Price;
+            existingBook.CategoryId = updatedBook.CategoryId;
+            existingBook.IsSold = updatedBook.IsSold;
+            existingBook.PostedDate = updatedBook.PostedDate;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!BookExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }
+
 
         // POST: api/Books
 
@@ -121,15 +116,17 @@ namespace IkıncielKitapApi.Controllers
         {
             return _context.Books.Any(e => e.Id == id);
         }
+
         [HttpGet("search")]
         public async Task<ActionResult<IEnumerable<Book>>> SearchBooks(
-    string? title,
-    string? author,
-    decimal? minPrice,
-    decimal? maxPrice,
-    string? sortBy = "postedDate",
-    int page = 1,
-    int pageSize = 5)
+       string? title,
+       string? author,
+       decimal? minPrice,
+       decimal? maxPrice,
+       int? categoryId,
+       string? sortBy = "postedDate",
+       int page = 1,
+       int pageSize = 5)
         {
             var query = _context.Books.AsQueryable();
 
@@ -144,6 +141,9 @@ namespace IkıncielKitapApi.Controllers
 
             if (maxPrice.HasValue)
                 query = query.Where(b => b.Price <= maxPrice.Value);
+
+            if (categoryId.HasValue)
+                query = query.Where(b => b.CategoryId == categoryId.Value);
 
             query = sortBy?.ToLower() switch
             {
@@ -166,6 +166,7 @@ namespace IkıncielKitapApi.Controllers
                 books
             });
         }
+
         [Authorize]
         [HttpGet("mybooks")]
         public IActionResult GetMyBooks()

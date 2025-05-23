@@ -117,7 +117,7 @@
         "IsRequired": true
       },
       {
-        "Name": "book",
+        "Name": "updatedBook",
         "Type": "Ik\u0131ncielKitapApi.Models.Book",
         "IsRequired": true
       }
@@ -186,6 +186,11 @@
       {
         "Name": "maxPrice",
         "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
@@ -303,17 +308,7 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ik\u0131ncielKitapApi.Models.Order, Ik\u0131ncielKitapApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Ik\u0131ncielKitapApi.Controllers.OrdersController",
@@ -355,17 +350,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Ik\u0131ncielKitapApi.Models.Order",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Ik\u0131ncielKitapApi.Controllers.OrdersController",
@@ -381,7 +366,7 @@
         "IsRequired": true
       },
       {
-        "Name": "order",
+        "Name": "updatedOrder",
         "Type": "Ik\u0131ncielKitapApi.Models.Order",
         "IsRequired": true
       }
@@ -500,8 +485,8 @@
         "IsRequired": true
       },
       {
-        "Name": "user",
-        "Type": "Ik\u0131ncielKitapApi.Models.User",
+        "Name": "updatedUser",
+        "Type": "IkincielKitapApi.Models.UserUpdateDto",
         "IsRequired": true
       }
     ],

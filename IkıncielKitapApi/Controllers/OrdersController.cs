@@ -24,37 +24,71 @@ namespace IkıncielKitapApi.Controllers
         }
 
         // GET: api/Orders
+        
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
+        public async Task<IActionResult> GetOrders()
         {
-            return await _context.Orders.ToListAsync();
+            var orders = await _context.Orders
+                .Include(o => o.Book)
+                    .ThenInclude(b => b.User)   // Kitabın sahibi bilgisi için
+                .Include(o => o.Buyer)
+                .ToListAsync();
+
+            var result = orders.Select(o => new
+            {
+                o.Id,
+                BookTitle = o.Book != null ? o.Book.Title : "Bilinmiyor",
+                BookAuthor = o.Book != null ? o.Book.Author : "Bilinmiyor",
+                BuyerUsername = o.Buyer != null ? o.Buyer.Username : "Bilinmiyor",
+                SellerUsername = o.Book?.User != null ? o.Book.User.Username : "Bilinmiyor",  // Satıcı
+                o.OrderDate
+            });
+
+            return Ok(result);
         }
 
-        // GET: api/Orders/5
+
         [HttpGet("{id}")]
-        public async Task<ActionResult<Order>> GetOrder(int id)
+        public async Task<IActionResult> GetOrder(int id)
         {
-            var order = await _context.Orders.FindAsync(id);
+            var order = await _context.Orders
+                .Include(o => o.Book)
+                .Include(o => o.Buyer)
+                .FirstOrDefaultAsync(o => o.Id == id);
 
             if (order == null)
-            {
                 return NotFound();
-            }
 
-            return order;
+            var result = new
+            {
+                order.Id,
+                BookTitle = order.Book != null ? order.Book.Title : "Bilinmiyor",
+                BookAuthor = order.Book != null ? order.Book.Author : "Bilinmiyor",
+                BuyerUsername = order.Buyer != null ? order.Buyer.Username : "Bilinmiyor",
+                order.OrderDate
+            };
+
+            return Ok(result);
         }
+
 
         // PUT: api/Orders/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutOrder(int id, Order order)
+        public async Task<IActionResult> PutOrder(int id, [FromBody] Order updatedOrder)
         {
-            if (id != order.Id)
-            {
-                return BadRequest();
-            }
+            var existingOrder = await _context.Orders
+                .Include(o => o.Book)
+                .Include(o => o.Buyer)
+                .FirstOrDefaultAsync(o => o.Id == id);
 
-            _context.Entry(order).State = EntityState.Modified;
+            if (existingOrder == null)
+                return NotFound();
+
+            // Sadece güncellenebilir alanları değiştiriyoruz
+            existingOrder.BookId = updatedOrder.BookId;
+            existingOrder.BuyerId = updatedOrder.BuyerId;
+            existingOrder.OrderDate = updatedOrder.OrderDate;
 
             try
             {
@@ -63,17 +97,16 @@ namespace IkıncielKitapApi.Controllers
             catch (DbUpdateConcurrencyException)
             {
                 if (!OrderExists(id))
-                {
                     return NotFound();
-                }
                 else
-                {
                     throw;
-                }
             }
 
             return NoContent();
         }
+
+
+
 
         // POST: api/Orders
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

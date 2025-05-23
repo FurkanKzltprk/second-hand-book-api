@@ -9,6 +9,7 @@ using IkincielKitapApi.Data;
 using IkıncielKitapApi.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using IkincielKitapApi.Models;
 
 namespace IkıncielKitapApi.Controllers
 {
@@ -47,30 +48,19 @@ namespace IkıncielKitapApi.Controllers
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int id, User user)
+        public async Task<IActionResult> PutUser(int id, [FromBody] UserUpdateDto updatedUser)
         {
-            if (id != user.Id)
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            _context.Entry(user).State = EntityState.Modified;
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+                return NotFound();
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UserExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            user.Username = updatedUser.Username;
+            user.Email = updatedUser.Email;
+
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }
@@ -96,12 +86,18 @@ namespace IkıncielKitapApi.Controllers
                 return NotFound();
             }
 
+            bool hasOrders = _context.Orders.Any(o => o.BuyerId == id);
+            if (hasOrders)
+            {
+                return BadRequest("Bu kullanıcıya ait siparişler olduğu için silinemez.");
+            }
+
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
-        [Authorize]
+
         [HttpGet("me")]
         public IActionResult GetMyInfo()
         {

@@ -264,3 +264,4 @@ C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\obj\Debug\net8.
 C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\obj\Debug\net8.0\IkıncielKitapApi.pdb
 C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\obj\Debug\net8.0\IkıncielKitapApi.genruntimeconfig.cache
 C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\obj\Debug\net8.0\ref\IkıncielKitapApi.dll
+C:\Users\Furkan\source\repos\IkıncielKitapApi\IkıncielKitapApi\bin\Debug\net8.0\AspNetCoreRateLimit.dll
