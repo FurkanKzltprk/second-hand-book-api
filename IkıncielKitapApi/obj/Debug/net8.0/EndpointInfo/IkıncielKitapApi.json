@@ -319,7 +319,7 @@
             "schema": {
               "type": "integer",
               "format": "int32",
-              "default": 5
+              "default": 20
             }
           }
         ],

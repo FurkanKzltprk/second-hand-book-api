@@ -1,0 +1,15 @@
+﻿@model WebInterFace_IkıncielKitapApi.Models.Book
+
+<h2>Kitap Sil</h2>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p><strong>Yazar:</strong> @Model.Author</p>
+    <p><strong>Fiyat:</strong> @Model.Price</p>
+    <p><strong>Açıklama:</strong> @Model.Description</p>
+</div>
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

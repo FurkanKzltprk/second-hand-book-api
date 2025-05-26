@@ -1,0 +1,13 @@
+﻿@model Book
+
+<h2>Kitap Detayı</h2>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p><strong>Yazar:</strong> @Model.Author</p>
+    <p><strong>Fiyat:</strong> @Model.Price</p>
+    <p><strong>Açıklama:</strong> @Model.Description</p>
+    <p><strong>Satıldı mı?:</strong> @(Model.IsSold ? "Evet" : "Hayır")</p>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Geri Dön</a>

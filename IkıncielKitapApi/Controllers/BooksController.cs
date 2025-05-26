@@ -126,7 +126,8 @@ namespace IkıncielKitapApi.Controllers
        int? categoryId,
        string? sortBy = "postedDate",
        int page = 1,
-       int pageSize = 5)
+       int pageSize = 20) //page size varsayılan olarak 20 ayarlandı , 20 tanesini getrir 20 den fazlası için
+                          // benim gidip HTTP isteğime &pagesize=25 , tarzında bir şey demem gerekiyor 25 oldu
         {
             var query = _context.Books.AsQueryable();
 

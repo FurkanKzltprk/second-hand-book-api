@@ -1,0 +1,12 @@
+﻿@model WebInterFace_IkıncielKitapApi.Models.Category
+
+<h2>Kategori Sil</h2>
+
+<div>
+    <h4>@Model.Name</h4>
+</div>
+
+<form method="post" asp-action="Delete" asp-route-id="@Model.Id">
+    <button type="submit" class="btn btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

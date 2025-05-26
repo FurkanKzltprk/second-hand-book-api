@@ -1,0 +1,17 @@
+﻿@model WebInterFace_IkıncielKitapApi.Models.Order
+
+<h2>Sipariş Sil</h2>
+
+<div>
+    <p><strong>Kitap:</strong> @Model.BookTitle</p>
+    <p><strong>Yazar:</strong> @Model.BookAuthor</p>
+    <p><strong>Fiyat:</strong> @Model.BookPrice</p>
+    <p><strong>Alıcı:</strong> @Model.BuyerUsername</p>
+    <p><strong>Satıcı:</strong> @Model.SellerUsername</p>
+    <p><strong>Sipariş Tarihi:</strong> @Model.OrderDate.ToString("dd.MM.yyyy")</p>
+</div>
+
+<form method="post" asp-action="Delete" asp-route-id="@Model.Id">
+    <button type="submit" class="btn btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

@@ -1,0 +1,22 @@
+﻿@model WebInterFace_IkıncielKitapApi.Models.Category
+
+<h2>Kategori Düzenle</h2>
+
+<form method="post" asp-action="Edit" asp-route-id="@Model.Id">
+    <div class="mb-3">
+        <label>Kategori Adı</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger mt-2">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+}

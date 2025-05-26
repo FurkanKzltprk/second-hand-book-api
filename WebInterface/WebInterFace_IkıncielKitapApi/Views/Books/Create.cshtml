@@ -1,0 +1,34 @@
+﻿@model Book
+
+<h2>Yeni Kitap Ekle</h2>
+
+<form method="post" asp-action="Create">
+    <div class="mb-3">
+        <label>Başlık</label>
+        <input asp-for="Title" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label>Yazar</label>
+        <input asp-for="Author" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label>Fiyat</label>
+        <input asp-for="Price" type="number" step="0.01" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label>Açıklama</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Ekle</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger mt-2">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+}

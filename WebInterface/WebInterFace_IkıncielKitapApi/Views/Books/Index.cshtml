@@ -1,0 +1,32 @@
+﻿@model List<Book>
+
+<h2>Kitap Listesi</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Başlık</th>
+            <th>Yazar</th>
+            <th>Fiyat</th>
+            <th>İşlemler</th>  <!-- Yeni sütun eklendi -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-action="Details" asp-route-id="@book.Id">@book.Title</a>
+                </td>
+                <td>@book.Author</td>
+                <td>@book.Price</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-sm btn-warning">Düzenle</a>
+                    <form asp-action="Delete" asp-route-id="@book.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

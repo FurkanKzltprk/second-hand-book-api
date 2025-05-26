@@ -1,0 +1,25 @@
+﻿@model List<WebInterFace_IkıncielKitapApi.Models.Order>
+
+<h2>Benim Siparişlerim</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kitap</th>
+            <th>Yazar</th>
+            <th>Fiyat</th>
+            <th>Sipariş Tarihi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.BookTitle</td>
+                <td>@order.BookAuthor</td>
+                <td>@order.BookPrice</td>
+                <td>@order.OrderDate.ToString("dd.MM.yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>

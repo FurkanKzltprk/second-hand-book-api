@@ -1,0 +1,542 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\orders\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\orders\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\webinterface_ik\u0131ncielkitapapi\\webinterface_ik\u0131ncielkitapapi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A448F2EF-763D-490F-A587-79DBE68699E6}|WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi.csproj|solutionrelative:webinterface_ik\u0131ncielkitapapi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:43:34.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:43:19.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:42:51.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:42:10.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:09:10.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:53:28.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Models\\Order.cs",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Models\\Order.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:42:08.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:39:42.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:43:51.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\MyOrders.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\MyOrders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T14:19:24.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:53:40.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:35:07.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:35:34.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:34:19.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:33:53.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:07:41.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:07:10.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T12:49:09.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:36:10.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:35:49.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAwwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:59:45.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:09:34.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:15:28.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:00:15.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T11:40:47.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Program.cs",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:39:56.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:08:25.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\WebInterFace_Ik\u0131ncielKitapApi\\WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "WebInterFace_Ik\u0131ncielKitapApi\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T12:48:09.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
