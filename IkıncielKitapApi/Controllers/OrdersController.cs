@@ -23,8 +23,10 @@ namespace IkıncielKitapApi.Controllers
             _context = context;
         }
 
+
+        //Sadece Admin erişebilir. Kullanıcılar erişemez.
         // GET: api/Orders
-        
+        [Authorize(Roles ="Admin")]
         [HttpGet]
         public async Task<IActionResult> GetOrders()
         {
@@ -48,6 +50,9 @@ namespace IkıncielKitapApi.Controllers
         }
 
 
+        //Sadece Admin erişebilir
+        
+        [Authorize(Roles ="Admin")]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetOrder(int id)
         {
@@ -74,6 +79,8 @@ namespace IkıncielKitapApi.Controllers
 
         // PUT: api/Orders/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        //Sadece Admin erişebilir.
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutOrder(int id, [FromBody] Order updatedOrder)
         {
@@ -107,10 +114,11 @@ namespace IkıncielKitapApi.Controllers
 
 
 
+        // Not!!! : Bu endpoint sadece Admin tarafından manuel sipariş girişi için kullanılabilir.
+        // Artık kullanıcılar siparişlerini Cart üzerinden verir.
 
         // POST: api/Orders
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
@@ -136,6 +144,10 @@ namespace IkıncielKitapApi.Controllers
         }
 
         // DELETE: api/Orders/5
+        //Sadece Admin erişebilir.
+
+        [Authorize(Roles = "Admin")]
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOrder(int id)
         {
@@ -150,6 +162,9 @@ namespace IkıncielKitapApi.Controllers
 
             return NoContent();
         }
+
+        //Kullanıcıya açık kendi siparişlerini görebilir !!
+
         [Authorize]
         [HttpGet("myorders")]
         public IActionResult GetMyOrders()
@@ -165,6 +180,7 @@ namespace IkıncielKitapApi.Controllers
                 {
                     o.Id,
                     o.OrderDate,
+                    o.BookId,  //bunu sonradan ekledim
                     o.Book.Title,
                     o.Book.Author,
                     o.Book.Price

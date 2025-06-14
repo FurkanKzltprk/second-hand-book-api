@@ -37,6 +37,7 @@ namespace IkincielKitapApi.Controllers
         }
 
         // POST: api/categories
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult PostCategory([FromBody] Category category)
         {
@@ -50,6 +51,7 @@ namespace IkincielKitapApi.Controllers
         }
 
         // PUT: api/categories/5
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public IActionResult PutCategory(int id, [FromBody] Category updatedCategory)
         {
@@ -67,6 +69,7 @@ namespace IkincielKitapApi.Controllers
         }
 
         // DELETE: api/categories/5
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public IActionResult DeleteCategory(int id)
         {

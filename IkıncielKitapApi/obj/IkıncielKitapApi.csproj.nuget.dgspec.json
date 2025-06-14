@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Furkan\\source\\repos\\IkıncielKitapApi\\IkıncielKitapApi\\IkıncielKitapApi.csproj": {}
+    "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\IkıncielKitapApi\\IkıncielKitapApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Furkan\\source\\repos\\IkıncielKitapApi\\IkıncielKitapApi\\IkıncielKitapApi.csproj": {
+    "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\IkıncielKitapApi\\IkıncielKitapApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\IkıncielKitapApi\\IkıncielKitapApi\\IkıncielKitapApi.csproj",
+        "projectUniqueName": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\IkıncielKitapApi\\IkıncielKitapApi.csproj",
         "projectName": "IkıncielKitapApi",
-        "projectPath": "C:\\Users\\Furkan\\source\\repos\\IkıncielKitapApi\\IkıncielKitapApi\\IkıncielKitapApi.csproj",
+        "projectPath": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\IkıncielKitapApi\\IkıncielKitapApi.csproj",
         "packagesPath": "C:\\Users\\Furkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Furkan\\source\\repos\\IkıncielKitapApi\\IkıncielKitapApi\\obj\\",
+        "outputPath": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\IkıncielKitapApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

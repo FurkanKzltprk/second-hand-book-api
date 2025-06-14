@@ -25,6 +25,7 @@ namespace IkıncielKitapApi.Controllers
         }
 
         // GET: api/Users
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
@@ -32,6 +33,7 @@ namespace IkıncielKitapApi.Controllers
         }
 
         // GET: api/Users/5
+        [Authorize(Roles = "Admin")]
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
@@ -47,36 +49,79 @@ namespace IkıncielKitapApi.Controllers
 
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(int id, [FromBody] UserUpdateDto updatedUser)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
             var user = await _context.Users.FindAsync(id);
             if (user == null)
                 return NotFound();
 
-            user.Username = updatedUser.Username;
-            user.Email = updatedUser.Email;
+            var changedFields = new List<string>();
+            var unchangedFields = new List<string>();
+
+            if (user.Username != updatedUser.Username)
+            {
+                user.Username = updatedUser.Username;
+                changedFields.Add("username");
+            }
+            else
+            {
+                unchangedFields.Add("username");
+            }
+
+            if (user.Email != updatedUser.Email)
+            {
+                user.Email = updatedUser.Email;
+                changedFields.Add("email");
+            }
+            else
+            {
+                unchangedFields.Add("email");
+            }
+
+            if (!string.IsNullOrWhiteSpace(updatedUser.Password))
+            {
+                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(updatedUser.Password);
+                changedFields.Add("password");
+            }
+            else
+            {
+                unchangedFields.Add("password");
+            }
 
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(new
+            {
+                message = "Kullanıcı başarıyla güncellendi.",
+                changedFields,
+                unchangedFields
+            });
         }
+
 
         // POST: api/Users
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
-        {
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+        /*Bu metodu ↓↓↓ kaldırıyorum çünkü Kullanıcı kaydını sadece auth/register kısmında yapacağım
+         bu kısımda da sadece Admin yetkisi olacak daha güvenli bir sistem olacak.*/
+        #region Kaldırılmış Http isteği
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, user);
-        }
+        
+        //[Authorize(Roles = "Admin")]
+        //[HttpPost]
+        //public async Task<ActionResult<User>> PostUser(User user)
+        //{
+        //    _context.Users.Add(user);
+        //    await _context.SaveChangesAsync();
+
+        //    return CreatedAtAction("GetUser", new { id = user.Id }, user);
+        //}
+        #endregion
+
 
         // DELETE: api/Users/5
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {

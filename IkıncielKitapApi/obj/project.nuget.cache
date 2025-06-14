@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+AahWovRla8=",
+  "dgSpecHash": "gdHMt93zQ1o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Furkan\\source\\repos\\IkıncielKitapApi\\IkıncielKitapApi\\IkıncielKitapApi.csproj",
+  "projectFilePath": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\IkıncielKitapApi\\IkıncielKitapApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Furkan\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\Furkan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

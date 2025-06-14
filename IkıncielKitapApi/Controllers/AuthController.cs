@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Text;
 using IkincielKitapApi.Data;
 using IkıncielKitapApi.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace IkincielKitapApi.Controllers
 {
@@ -52,6 +53,8 @@ namespace IkincielKitapApi.Controllers
             return Ok(new { token = tokenString });
         }
 
+
+        [Authorize(Roles = "Admin")]
         [HttpPost("register")]
         public IActionResult Register([FromBody] RegisterRequest request)
         {
@@ -73,7 +76,35 @@ namespace IkincielKitapApi.Controllers
 
             return Ok("Kayıt başarılı.");
         }
+
+        [AllowAnonymous]
+        [HttpPost("user-register")]
+        public IActionResult UserRegister([FromBody] RegisterRequest request)
+        {
+            if (_context.Users.Any(u => u.Email == request.Email))
+                return BadRequest("Bu email adresi zaten kullanılıyor.");
+
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password);
+
+            var user = new User
+            {
+                Username = request.Username,
+                Email = request.Email,
+                PasswordHash = hashedPassword,
+                Role = "User" // Rol sabit olarak User atanır
+            };
+
+            _context.Users.Add(user);
+            _context.SaveChanges();
+
+            return Ok("Kayıt başarılı. Lütfen giriş yapınız.");
+        }
+
+
     }
+
+
+
 
     public class LoginRequest
     {

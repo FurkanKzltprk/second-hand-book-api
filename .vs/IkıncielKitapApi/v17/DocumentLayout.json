@@ -1,18 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250614084441_AddCartItemTableFixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ik\u0131ncielKitapApi\\Migrations\\20250614084441_AddCartItemTableFixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250614084213_AddCartItemTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ik\u0131ncielKitapApi\\Migrations\\20250614084213_AddCartItemTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\source\\repos\\ik\u0131ncielkitapapi\\ik\u0131ncielkitapapi\\models\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\models\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\migrations\\20250602133518_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\migrations\\20250602133518_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|c:\\users\\furkan\\downloads\\compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\ik\u0131ncielkitapapi\\migrations\\20250603131759_furkan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DB12B-1C79-469A-978F-CE291F6D7A00}|Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi.csproj|solutionrelative:ik\u0131ncielkitapapi\\migrations\\20250603131759_furkan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,25 +137,205 @@
               "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Data\\SeedData.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T17:28:52.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwGIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:09:48.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:24:38.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAUwKgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:41:46.859Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAwwKsAAAAcAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T11:09:48.929Z",
+              "WhenOpened": "2025-06-03T13:25:04.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\CartController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwDgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:26:31.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20250614084441_AddCartItemTableFixed.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250614084441_AddCartItemTableFixed.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Migrations\\20250614084441_AddCartItemTableFixed.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250614084441_AddCartItemTableFixed.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Migrations\\20250614084441_AddCartItemTableFixed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:44:41.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250614084213_AddCartItemTable.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250614084213_AddCartItemTable.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Migrations\\20250614084213_AddCartItemTable.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250614084213_AddCartItemTable.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Migrations\\20250614084213_AddCartItemTable.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:42:13.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\CartItem.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:24:41.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowH4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:47:17.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:41:50.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\appsettings.Development.json",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T07:37:25.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Program.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Program.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Program.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:34:39.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T07:37:29.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\User.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:41:17.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "UserUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Models\\UserUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\UserUpdateDto.cs",
               "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\UserUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Models\\UserUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\UserUpdateDto.cs",
               "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\UserUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,16 +343,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Furkan\\source\\repos\\Ik\u0131ncielKitapApi\\Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAUwEEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\appsettings.json",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\appsettings.json",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T13:34:51.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\Order.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T15:47:17.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T13:41:27.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:41:29.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Models\\Book.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:41:31.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250603131759_Furkan1.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250603131759_Furkan1.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Migrations\\20250603131759_Furkan1.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250603131759_Furkan1.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Migrations\\20250603131759_Furkan1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:17:59.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250602133518_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250602133518_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Ik\u0131ncielKitapApi\\Migrations\\20250602133518_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Downloads\\Compressed\\second-hand-book-api-main_3\\second-hand-book-api-main\\Ik\u0131ncielKitapApi\\Migrations\\20250602133518_InitialCreate.cs",
+              "RelativeToolTip": "Ik\u0131ncielKitapApi\\Migrations\\20250602133518_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:35:19.021Z"
             }
           ]
         },
